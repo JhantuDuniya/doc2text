@@ -45,13 +45,13 @@ A simple GUI application to convert PDF and Word documents to text files.
 project/
 ├── converter.py      # Main application file
 ├── requirements.txt  # Python dependencies
-├── input/           # Directory for input files
+├── uploads/           # Directory for input files
 └── output/          # Directory for converted files
 ```
 
 ## Notes
 
-- The application automatically creates `input` and `output` directories if they don't exist
+- The application automatically creates `uploads` and `output` directories if they don't exist
 - Output files are named with the format: `originalname_YYYYMMDD_HHMMSS.txt`
 - The interface shows the status of operations and any errors that occur
 - Old .doc files are not supported - please save them as .docx before converting
